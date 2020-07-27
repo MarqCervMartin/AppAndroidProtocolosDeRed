@@ -1,4 +1,8 @@
-<img align="center" src="https://media.giphy.com/media/RGYifXPMJv1RuRLKbb/giphy.gif" alt="App SubNetting" >
+# App Frames (networking)🕵️‍♂️👨‍💻01010101
+
+This is a scolar project.
+A frame is a digital data transmission unit in computer networking and telecommunication. In packet switched systems, a frame is a simple container for a single network packet. In other telecommunications systems, a frame is a repeating structure supporting time-division multiplexing.
+<img align="right" src="https://media.giphy.com/media/RGYifXPMJv1RuRLKbb/giphy.gif" alt="App SubNetting" >
 
 ## Comenzando 🚀👨‍💻🚀
 
