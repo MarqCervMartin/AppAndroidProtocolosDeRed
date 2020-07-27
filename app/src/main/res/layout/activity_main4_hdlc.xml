@@ -67,6 +67,8 @@
         android:layout_marginBottom="36dp"
         android:layout_marginEnd="52dp"
         android:text="Generar Trama"
+        android:background="@drawable/button_back"
+        android:textColor="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

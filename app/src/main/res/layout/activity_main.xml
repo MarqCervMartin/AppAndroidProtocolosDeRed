@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/protocolosbackgroundapp"
     tools:context=".MainActivity">
 
     <ImageView
@@ -33,7 +34,7 @@
         android:layout_marginEnd="53dp"
         android:layout_marginStart="53dp"
         android:layout_marginTop="148dp"
-
+        android:textColor="#FFFF"
         android:text="Universidad Autonoma del Estado de Mexico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -48,6 +49,7 @@
         android:layout_marginStart="135dp"
         android:layout_marginTop="17dp"
         android:text="Protocolos de Red"
+        android:textColor="#FFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -60,6 +62,7 @@
         android:layout_marginStart="112dp"
         android:layout_marginTop="48dp"
         android:text="Martin Marquez Cervantes"
+        android:textColor="#FFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -72,6 +75,7 @@
         android:layout_marginStart="116dp"
         android:layout_marginTop="20dp"
         android:text="Ivan Pacheco Maldonado"
+        android:textColor="#FFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,6 +90,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="HDLC"
+        android:textColor="#FFFF"
+        android:background="@drawable/button_back"
         app:layout_constraintBottom_toTopOf="@+id/b4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -100,6 +106,8 @@
         android:layout_marginBottom="56dp"
         android:layout_marginStart="24dp"
         android:text="PPP"
+        android:textColor="#FFFF"
+        android:background="@drawable/button_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -111,6 +119,8 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="8dp"
         android:text="BSC"
+        android:textColor="#FFFF"
+        android:background="@drawable/button_back"
         app:layout_constraintBottom_toTopOf="@+id/b4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
@@ -127,13 +137,15 @@
         android:id="@+id/b4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="56dp"
-        android:layout_marginEnd="20dp"
         android:layout_marginStart="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/button_back"
         android:text="Ethernet"
+        android:textColor="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/b5"
-        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintHorizontal_bias="0.676"
         app:layout_constraintStart_toEndOf="@+id/b3" />
 
     <Button
@@ -143,6 +155,8 @@
         android:layout_marginBottom="56dp"
         android:layout_marginEnd="24dp"
         android:text="802.11"
+        android:textColor="#FFFF"
+        android:background="@drawable/button_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
